@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#0f2439 url(../images/form_bg.jpg) no-repeat center top;
+}
+.bg{
+	width:502px;
+	margin:0 auto;
+	padding-bottom: 178px;
+}
+.img1{
+	display:block;
+	margin:0 auto;
+}
+.p1 a{
+	font-size: 32px;
+	color:#feffff;
+}
+.p2{
+	font-size: 13px;
+	color:#cfd6dc;
+	margin-top: 38px;
+	margin-bottom: 31px;
+}
+input{
+	width:500px;
+	height:34px;
+	background-color: #0c1a25;
+	border:1px #535c63 solid;
+	margin-bottom:9px;
+	padding-left: 11px;
+	font-size: 13px;
+	color:#666f76;
+}
+input:focus{
+	border:1px #1e5f99;
+	color:#8d969f;
+}
+.input2{
+	margin-bottom:19px;
+}
+.input4{
+	margin-bottom:6px;
+}
+.input5{
+	margin-bottom:11px;
+}
+.img2{
+	/*width:200px;
+	height:73px;*/
+	margin-bottom: 7px;
+	float:left;
+}
+.img3{
+	/*width:200px;
+	height:73px;*/
+	margin-bottom: 7px;
+	float:left;
+}
+.input6{
+	width:501px;
+	height:34px;
+	background-color: #0a141e;
+	border-top:1px #525b62 solid;
+	border-bottom:1px #525b62 solid;
+	border-left:2px #434a50 solid;
+	border-right:2px #434a50 solid;
+	margin-bottom:31px;
+}
+.input7{
+	width:21px;
+	height:20px;
+	background-color: #09131d;
+	border-top:1px #535a62 solid;
+	border-bottom:1px #535a62 solid;
+	border-left:2px #434a50 solid;
+	border-right:2px #434a50 solid;
+	margin-bottom:11px;
+	float:left;
+}
+/*label{
+	width:21px;
+	height:20px;
+	background-color: #09131d;
+	display:none;
+	border-top:1px #535a62 solid;
+	border-bottom:1px #535a62 solid;
+	border-left:2px #434a50 solid;
+	border-right:2px #434a50 solid;
+	margin-bottom:11px;
+	float:left;
+}*/
+.p3{
+	font-size: 11px;
+	color:#cfd4da;
+	margin-bottom:11px;
+	float:left;
+	padding-top:4px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+}
+.p3 a{
+	color:#01aefb;
+}
+.btn_1{
+	width:501px;
+	height:34px;
+	background-color: #0e1f31;
+	border-top:1px #314151 solid;
+	border-bottom:1px #314151 solid;
+	border-left:2px #2b3849 solid;
+	border-right:2px #2b3849 solid;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color:#086092;
+}
+.btn_1:hover,.btn_2:hover{
+	background-image: url(../images/pic_6.jpg);
+	color:#fffeff;
+}
+.btn_2{
+	width:501px;
+	height:34px;
+	background-color: #0e1f31;
+	border-top:1px #314151 solid;
+	border-bottom:1px #314151 solid;
+	border-left:2px #2b3849 solid;
+	border-right:2px #2b3849 solid;
+	margin-bottom: 28px;
+	font-size: 14px;
+	color:#086092;
+}
+.p4{
+	font-size: 13px;
+	color:#cfd4d8;
+	line-height: 20px;
+}
+.p4 a{
+	color:#00aeff;
+}

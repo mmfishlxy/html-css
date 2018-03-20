@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航</title>
+	<style tyle="text/css">
+	body{margin:0;}
+	ul{margin:0; padding:0;}
+	li{list-style:none;}
+	a{color:#000; text-decoration:none;}
+	a:link{color:#000; text-decoration:none;}
+	a:visited{color:#000; text-decoration:none;}
+	a:hover{color:#000; text-decoration:none;}          /*伪类 */  
+	a:active{color:#000; text-decoration:none;}
+	.clearfix:before,.clearfix:after{display:block; content:"";}
+	.clearfix:after{clear:both;}
+	/*.nav{
+		height:200px;
+	}*/
+	.bg_bottom{
+		height:150px;
+		background-image:url(./img/banner2_bg.jpg);
+		/*background-repeat:repeat-x;*/
+		/*position:relative;*/
+	}
+	.bg_top{
+		width:567px;
+		height:150px;
+		background-image: url(./img/banner2_left.jpg);
+		/*background-repeat:no-repeat;*/
+		float:left;/*
+		position:absolute;
+		left:0;
+		top:0;*/
+	}
+	.bg_2{
+		height:50px;
+		background-image:url(./img/button3_bg.jpg);
+		background-repeat:repeat-x;
+	}
+	ul{
+		border-top:7px solid #bfbfbd;
+		background-image:url(./img/button3.jpg);
+		/*width:860px;
+		border:1px #000 solid;*/
+	}
+	ul li{
+		width:119px;
+		height:46px;
+		line-height:46px;
+		/*border:1px #b2b1af solid;*/
+		text-align:center;
+		float:left;
+	}
+	.bg_2  ul a{
+		color:#6833cc;
+		display:block; 
+		height:46px;
+	}
+	li:hover{
+		background-image: url(./img/button4.jpg);
+	}
+	li:hover a{
+		color:white;
+	}
+	.l1{border-left:1px solid white; display: block;}      /*左边白线*/
+	</style>
+</head>
+<body class="body">
+	<div class="bg_top">             <!-- 上面图 -->
+	</div>
+	<div class="bg_bottom">          <!-- 上面底图 -->
+	</div>
+		<div class="bg_2">
+			<ul class="clearfix">            <!-- 导航栏 -->
+				<li class="l1"><a href="../作业_1/忆江南.html">首页导读</a></li>
+				<li class="l1"><a href="www.baidu.com.cn" >推荐版面</a></li>
+				<li class="l1"><a href="www.baidu.com.cn">推荐文章</a></li>   
+				<li class="l1"><a href="www.baidu.com.cn">收藏夹</a></li>
+				<li class="l1"><a href="www.baidu.com.cn">我的信箱</a></li>
+				<li class="l1"><a href="www.baidu.com.cn">休闲娱乐</a></li>
+				<li class="l1"><a href="www.baidu.com.cn">帮助</a></li>
+			</ul>
+		</div>
+</body>
+</html>

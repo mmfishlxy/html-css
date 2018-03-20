@@ -1,0 +1,143 @@
+.bg{
+	background-color: #f2f2f2;
+	padding-top: 30px;
+}
+.wrap{
+	width:720px;
+	margin:0 auto;
+	background-color: #ffffff;
+}
+.wrap header .header_1{
+	border:1px #dadada solid;
+	padding:26px 63px 20px 62px;
+}
+.wrap header .header_1 p{
+	color:#666666;
+	font-size: 12px;
+	font-weight: bold;
+	display:inline-block;
+}
+.wrap header .header_1 select:nth-of-type(2){
+	margin-left:10px;
+}
+.wrap header .header_1 .submit{
+	width:58px;
+	height:23px;
+	border:1px #707070 solid;
+	border-radius: 2px;
+	margin-left: 35px;
+	/*padding:1px;
+	background-color: #fafafa;*/
+	background-image: url(../images/header_1.jpg);
+	background-repeat: repeat-x;
+}
+.wrap header .header_2{
+	border-left: 1px #dadada solid;
+	border-right: 1px #dadada solid;
+	padding:15px 221px 19px 185px;
+}
+.wrap header .header_2 li{
+	width:66px;
+	height:15px;
+	float:left;
+	margin-right: 16px;
+}
+.wrap header .header_2 li:last-child{
+	margin-right: 0px;
+}
+.wrap header .header_2 img{
+	margin-right: 4px;
+}
+.wrap table{
+	font-size: 12px;
+	width:720px;
+	border:1px #e7e7e7 solid;
+}
+.wrap table th{
+	height:26px;
+	width:49px;
+	text-align: center;
+	line-height: 26px;
+	color:#326801;
+	background-color: #f7ffef;
+}
+.wrap table tr td{
+	height:26px;
+	text-align: center;
+	line-height: 26px;
+}
+.wrap table th:nth-of-type(1){
+	width:82px;
+}
+.wrap table th:nth-of-type(2){
+	width:78px;
+}
+.wrap table th:nth-of-type(3){
+	width:101px;
+}
+.wrap table th:nth-of-type(4){
+	width:30px;
+}
+.wrap table th:nth-of-type(5){
+	width:48px;
+}
+.wrap table th:nth-of-type(6){
+	width:48px;
+}
+.wrap table th:nth-of-type(12){
+	width:75px;
+}
+.wrap table tr td:nth-of-type(1){
+	text-align: center;
+}
+.wrap table tr td:nth-of-type(2){
+	text-align: center;
+}
+.wrap table tr td:nth-of-type(3){
+	text-align: center;
+}
+.wrap table tr td:nth-of-type(1) h1{
+	margin-bottom: 13px;
+	font-size: 14px;
+	color:#4ca100;
+}
+.wrap table tr td:nth-of-type(1) p{
+	font-size: 12px;
+	color:#333333;
+}
+/*将第四列变为绿色字体*/
+.wrap table tr td:nth-of-type(4){
+	color:#326801;
+	text-align: center;
+}
+/*将因为合并单元格而变化的字体变回绿色*/
+.wrap table tr:nth-of-type(3) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(4) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(6) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(7) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(9) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(10) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(12) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(13) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(15) td:nth-of-type(1){
+	color:#326801;
+}
+.wrap table tr:nth-of-type(16) td:nth-of-type(1){
+	color:#326801;
+}

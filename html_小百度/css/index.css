@@ -1,0 +1,377 @@
+.wrap{
+	width:765px;
+	margin:0 auto;
+	background-color: #fff;
+}
+header{
+	position:relative;
+}
+header p{
+	position:absolute;
+	left:579px;
+	top:6px;
+	font-size:12px;
+	color:#f90000;
+}
+header p a span{
+	font-size:12px;
+	color:#f90000;
+	font-weight:bold;
+}
+.logo_left1{
+	width:79px;
+	height:18px;
+	position:absolute;
+	left:686px;
+	top:5px;
+	background-color: #cdcdcd;
+}
+.logo_left1 a{
+	font-size: 11px;
+}
+.text_logo{
+	font-size:15px;
+	font-weight:bold;
+	color:#fe0000;
+	position:absolute;
+	top:32px;
+	left:392px;
+}
+header ul{
+	margin-bottom:10px;
+}
+header ul li{
+	float:left;
+	width:85px;
+	height:25px;
+	background-color:#ffe48b;
+	text-align: center;
+	line-height: 25px;
+}
+header ul li:hover{
+	background-color:#ff5c01;
+}
+.wrap header ul li a{
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	color:#fd0003;
+}
+.wrap header ul li a:hover{
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	color:#fff;
+}
+.content1{
+	border:1px #bf4a15 solid;
+	position:relative;
+	margin-bottom: 13px;
+}
+.content1_left{
+	width:550px;
+	border-right:1px #c74919 solid;
+	float:left;
+}
+.jump{
+	width:119px;
+	height:25px;
+	background-color: #fdad00;
+	position:absolute;
+	left:411px;
+	top:113px;
+	box-shadow: 1px 1px #adadad;
+}
+.jump a{
+	font-size:13px;
+	font-weight: bold;
+	color:#000000;
+	text-align: center;
+	line-height: 25px;
+	display:block;
+}
+.content1_left_center{
+	height:35px;
+	background-color: #f56101;
+	position:relative;
+}
+.search{
+	position:absolute;
+	top:6px;
+	left:9px;
+	background-image: url(../images/search.jpg);
+	width:21px;
+	height:21px;
+	border:0px;
+}
+.form_text1{
+	position:absolute;
+	top:6px;
+	left:44px;
+	width:138px;
+	height:21px;
+	border:1px #2f628f solid;
+}
+.form_btn1{
+	position:absolute;
+	top:6px;
+	left:195px;
+	width:116px;
+	height:21px;
+	box-shadow: 0px 1px #f5cd9a;
+	border:1px #00001c solid;
+	border-radius: 2px;
+}
+.search3{
+	position:absolute;
+	top:6px;
+	left:326px;
+	width:99px;
+	height:20px;
+	background-color: #ffebf6;
+	text-align: center;
+	line-height: 20px;
+	font-weight: bold;
+}
+.search3 a{
+	text-decoration:underline;
+	font-size: 11px;
+	color:#0201bf;
+}
+.content1_left_footer{
+	padding:9px 0px 15px 12px;
+}
+.content1_left_footer p{
+	color:#0001df;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 19px;
+}
+.content1_left_footer p span{
+	color:#fa0001;
+}
+.text_content1_1{
+	padding-left:134px;
+	color:#0000f0;
+	font-size: 11px;
+	line-height: 19px;
+}
+.text_content1_1 span{
+	color:#ff0101;
+	font-size: 11px;
+	line-height: 19px;
+}
+.xieti{
+	font-style: italic;
+}
+.content1_left_footer .xieti span{
+	color:#0200cd;
+}
+.content1_right{
+	position:relative;
+	width:213px;
+	float:right;
+	padding-top:32px;
+	padding-left: 6px;
+}
+.content1_right_top{
+	width:213px;
+	height:25px;
+	background-color: #ffe48b;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.content1_right .content1_right_top p{
+	color:#ff1e02;
+	font-size: 11px;
+	position:absolute;
+	top:6px;
+	left:10px;
+	font-weight: bold;
+}
+.content1_right ul li{
+	padding-left: 4px;
+	height:13px;
+	font-size: 13px;
+	color:#000000;
+	margin-bottom: 6px;
+}
+.content1_right_center{
+	font-weight: bold;
+	font-size: 11px;
+	color:#000;
+	margin-top: 4px;
+	line-height: 19px;
+}
+.content1_right_center span{
+	color:#ff0100;
+}
+.content1_right_footer{
+	width:213px;
+	height:25px;
+	background-color: #ffe48b;
+	position:absolute;
+	top:232px;
+	left:0px;
+}
+.content1_right_footer p{
+	color:#fe0000;
+	font-size: 11px;
+	position:absolute;
+	top:6px;
+	left:10px;
+	font-weight: bold;
+}
+.content2{
+	border:1px #bf4a15 solid;
+	background-color: #ffffff;
+	position:relative;
+	margin-bottom: 15px;
+}
+.content2 p{
+	font-size: 15px;
+	color:#1b1b1b;
+	line-height: 20px;
+	position:absolute;
+	top:8px;
+	left:349px;
+}
+.content2 .content_p2{
+	position:absolute;
+	top:57px;
+	left:349px;
+	background-color: #de0000;
+	color:#feeddd;
+	font-size: 18px;
+}
+.content2 .content_p2 span{
+	background-color: #0000eb;
+	color:#feeddd;
+	font-size: 18px;
+}
+.content3_left{
+	width:267px;
+	border:1px #bf4a15 solid;
+	float:left;
+	margin-right: 6px;
+	position:relative;
+	padding-left: 14px;
+	padding-top:50px;
+	padding-bottom:61px;
+}
+.top{
+	background-color:#ffe48b;
+	height:35px;
+	width:265px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.top p{
+	color:#ff1e02;
+	font-size: 11px;
+	position:absolute;
+	top:11px;
+	left:11px;
+	font-weight: bold;
+}
+.content3_left ul li{
+	height:11px;
+	line-height:11px;
+	text-align: left;
+	margin-bottom: 13px;
+	padding-left: 8px;
+	background-image: url(../images/dian.jpg);
+	background-repeat:no-repeat; 
+}
+.content3_left ul li a{
+	color:#000000;
+	font-size: 11px;
+}
+.more{
+	font-size: 11px;
+	color:#000;
+	position:absolute;
+	left:193px;
+	top:223px;
+}
+.content3_center{
+	width:267px;
+	border:1px #bf4a15 solid;
+	float:left;
+	position:relative;
+	padding-left: 14px;
+	padding-top:50px;
+	padding-bottom:85px;
+}
+.content3_center ul li{
+	height:11px;
+	line-height:11px;
+	text-align: left;
+	margin-bottom: 13px;
+	padding-left: 8px;
+	background-image: url(../images/dian.jpg);
+	background-repeat:no-repeat; 
+}
+.content3_center ul li a{
+	color:#000000;
+	font-size: 11px;
+}
+.content3_right{
+	width:215px;
+	border:1px #bf4a15 solid;
+	float:right;
+	position:relative;
+	padding-left: 10px;
+	padding-right: 11px;
+	padding-top:36px;
+	padding-bottom: 27px;
+}
+.content3_right .top_right{
+	background-color:#ffe48b;
+	height:25px;
+	width:213px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.content3_right .top_right p{
+	color:#ff1e02;
+	font-size: 11px;
+	position:absolute;
+	top:6px;
+	left:11px;
+	font-weight: bold;
+}
+.content3_right h1{
+	font-size: 12px;
+	background-image: url(../images/dian2.jpg);
+	background-repeat: no-repeat;
+	padding-left:15px;
+	line-height: 24px;
+}
+.content3_right p{
+	font-size: 11px;
+	line-height: 24px;
+}
+footer{
+	padding-top: 23px;
+	padding-bottom:20px;
+	text-align: center;
+}
+.footer_p1{
+	font-size: 11px;
+	margin-bottom: 8px;
+}
+.footer_p1 span{
+	font-weight: bold;
+}
+.footer_p2{
+	font-weight: bold;
+}
+
+
+
+
+

@@ -1,0 +1,266 @@
+body{
+	background-image: url(../images/pic_bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #eafcfe;
+}
+.wrap{
+	width:880px;
+	margin:0 auto;
+	padding-top:10px;
+}
+header{
+	position:relative;
+	margin-bottom: 10px;
+}
+.header_ul1{
+	width:245px;
+	position:absolute;
+	left:615px;
+	top:0;
+}
+.header_ul1 li{
+	width:75px;
+	height:22px;
+	background-image: url(../images/button_1.jpg);
+	float:left;
+}
+.header_ul1 li:nth-child(2){
+	margin:0 10px;
+}
+.header_ul1 li a{
+	padding-top:6px;
+	padding-bottom:5px;
+	padding-left: 21px;
+	color:#aeaeae;
+	font-size: 11px;
+	display:block;
+}
+.logo1{
+	margin-top:17px;
+	margin-left:34px;
+	margin-bottom:8px;
+	box-sizing: border-box;
+}
+.logo2{
+	position:absolute;
+	left:113px;
+	top:30px;
+}
+.header_ul2{
+	background-image: url(../images/banner_bg.jpg);
+	padding:8px 10px 7px 10px;
+	/*height:54px;*/
+}
+.header_ul2 li{
+	width:96px;
+	height:35px;
+	background-image: url(../images/banner-button2.jpg);
+	margin-right: 13px;
+	float:left;
+}
+.header_ul2 .li_right{
+	margin-right: 0;
+}
+.header_ul2 li:hover{
+	background-image: url(../images/banner_button1.jpg);
+}
+.header_ul2 li a{
+	color:#191a86;
+	font-size:16px;
+	text-align:center;
+	line-height:35px;
+	display:block;
+}
+.header_ul2 li a:hover{
+	color:white;
+}
+.main_wrap{
+	border:1px #d3dfdb solid;
+	border-radius:10px/6px;
+	padding:9px;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+.nav{
+	width:220px;
+	margin-right: 10px;
+	float:left;
+}
+.nav_top{
+	height:100px;
+	border-radius:8px/6px 0 0 0;
+	background-color: #f2f2f2;
+	margin-bottom:15px;
+}
+.nav_top p,.nav_content1 p{
+	font-size:11px;
+	color:#087203;
+	text-align:center;
+	line-height: 100px
+}
+.nav_content1{
+	height:220px;
+	border:1px #989898 solid;
+	border-radius:10px;
+	margin-bottom:15px;
+}
+.nav_pic{
+	margin:5px 8px 6px 13px;
+}
+.line{
+	border-top:1px #999e98 solid;
+}
+.nav_content1 h1{
+	font-size:15px;
+	color:#ff7108;
+	display:inline-block;
+	letter-spacing:5px;
+}
+.nav_content1 p{
+	font-size:11px;
+	color:#087203;
+	text-align:center;
+	line-height: 183px
+}
+.a1{
+	display:block;
+	margin-bottom:15px;
+}
+.a2{
+	display:block;
+	margin-bottom:15px;
+}
+.a3{
+	display:block;
+	margin-bottom:23px;
+}
+.content{
+	width:630px;
+	float:right;
+}
+.pic_banner{
+	display:block;
+	margin-bottom: 9px;
+}
+.content_main_left{
+	width:420px;
+	margin-right:10px;
+	float:left;
+}
+.content_1,.content_2{
+	position:relative;
+}
+.img_banner{
+	display:block;
+}
+.content_main_left h1{
+	position:absolute;
+	left:23px;
+	top:9px;
+	font-size:13px;
+	line-height: 13px;
+	color:#4e697c;
+}
+.content_1 ul,.content_2 ul{
+	padding-left: 15px;
+	padding-top:12px;
+	padding-bottom: 9px;
+}
+.content_1 ul li,.content_2 ul li{
+	height:11px;
+	font-size:11px;
+	line-height:11px;
+	color:black;
+	padding-left:17px;
+	margin-bottom: 14px;
+	background-image: url(../images/content_img.jpg);
+	background-repeat: no-repeat;
+}
+.content_main_news{
+	width:200px;
+	float:right;
+	position:relative;
+}
+.content_main_news h1{
+	position:absolute;
+	left:23px;
+	top:9px;
+	font-size:13px;
+	line-height: 13px;
+	color:#085803;
+}
+.news_table{
+	border-left:1px #e7e9e6 solid;
+	padding-top: 20px;
+	padding-left:9px;
+	background-color: #e8f2e9;
+}
+table{
+	background-color: #11630f;
+	margin-bottom: 16px;
+}
+th{
+	color:#117512;
+}
+td{
+	color:#117512;
+	padding-top:9px;
+	padding-left:4px;
+}
+tr{
+	background-color:#f5f4fa;
+	height:29px;
+}
+.news_table a{
+	color:#076f00;
+	font-size:11px;
+	margin-left:122px;
+}
+.main_footer_nav{
+	width:44px;
+	height:124px;
+	padding:17px 12px 18px 14px;
+	margin-right:17px;
+	background-image:url(../images/pic_4.jpg);
+	float:left;
+}
+.main_footer_nav h1{
+	font-size: 18px;
+	color:#0d59a5;
+	line-height: 24px;
+}
+.pic_roll{
+	width:799px;
+	padding-top:6px;
+	float:right;
+	overflow: hidden;
+}
+.roll_content{
+	width:124px;
+	display:inline-block;
+	margin-right:20px;
+}
+.roll{
+	height:94px;
+	border:1px #010101 solid;
+	background-color: #fff;
+	display:inline-block;
+	padding:1px;
+}
+.roll_content p{
+	font-size:11px;
+	padding-left:8px;
+	padding-top:6px;
+}
+footer{
+	border:1px #d3dfdb solid;
+	border-radius:10px/6px;
+	background-color: #fff;
+	box-shadow: 0 4px 0 #a3adaf;
+	padding:8px 0;
+}
+footer p{
+	font-size:11px;
+	line-height: 16px;
+	text-align: center;
+}

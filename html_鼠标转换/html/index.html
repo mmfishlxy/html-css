@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<style type="text/css">
+	ul{
+		width:400px;
+		margin:0 auto;
+		list-style: none;
+	}
+	ul li{
+		width:36px;
+		height:31px;
+		display:inline-block;
+		border:1px #cbc9cc solid;
+		border-radius: 5px/4px;
+		text-align:center;
+	}
+	ul li a{
+		color:black;
+		line-height: 31px;
+	}
+	ul li:target a{
+		text-decoration: none;
+		color:#cbc9cc;
+		/*border:none;*/
+	}
+	ul li:target{
+		border:none;
+	}
+	</style>
+</head>
+<body>
+	<ul>
+		<li id="li1"><a href="#li1">1</a></li>
+		<li id="li2"><a href="#li2">2</a></li>
+		<li id="li3"><a href="#li3">3</a></li>
+		<li id="li4"><a href="#li4">4</a></li>
+		<li id="li5"><a href="#li5">5</a></li>
+		<li id="li6"><a href="#li6">6</a></li>
+	</ul>
+</body>
+</html>
